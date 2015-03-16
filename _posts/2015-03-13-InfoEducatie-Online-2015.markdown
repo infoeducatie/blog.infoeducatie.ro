@@ -8,7 +8,7 @@ categories: stiri
 
 A fost lansat InfoEducație Online 2015!
 
-De anul trecut, a început o nouă tradiție în istoria acestui concurs, și anume, ediția online. A doua ca număr, ediția online de anul acesta își deschide porțile devreme, înscrierile începând de pe data de 18 martie și se încheie pe 18 aprilie.
+De anul trecut, a început o nouă tradiție în istoria acestui concurs, și anume, ediția online. A doua ca număr, ediția online de anul acesta își deschide porțile devreme. Înscrierile încep de pe data de 18 martie și se încheie pe 18 aprilie.
 
 Concursul găzduiește, ca și anul trecut, toate cele 5 secțiuni: Software Utilitar, Software Educațional, Multimedia, Web și Roboți.
 
