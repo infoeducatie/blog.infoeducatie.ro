@@ -17,5 +17,5 @@ V&#259; a&#537;tept&#259;m s&#259; v&#259; &icirc;nscrie&#539;i!
 
 Mai multe informa&#539;ii g&#259;si&#539;i pe pagina oficial&#259; a [concursului]. Nu uita&#539;i s&#259; consulta&#539;i [regulamentul]!
 
-[concursului] http://www.infoeducatie.ro
-[regulamentul] https://drive.google.com/folderview?id=0B_wU4FGfmo2Zfm0ycFZiMlY2eFVpeTI0MENEdGppMmxYNUJlalJuQWJFVS1BVW51dHAtOXc&usp=sharing#list
+[concursului]:  http://www.infoeducatie.ro
+[regulamentul]: https://drive.google.com/folderview?id=0B_wU4FGfmo2Zfm0ycFZiMlY2eFVpeTI0MENEdGppMmxYNUJlalJuQWJFVS1BVW51dHAtOXc&usp=sharing#list
