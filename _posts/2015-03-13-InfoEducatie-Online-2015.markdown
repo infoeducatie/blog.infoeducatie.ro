@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "<p>InfoEduca&#539;ie - Edi&#539;ia Online 2015</p>"
+title:  "InfoEduca&#539;ie - Edi&#539;ia Online 2015"
 date:   2015-03-13 23:16:02
 categories: stiri
 ---
