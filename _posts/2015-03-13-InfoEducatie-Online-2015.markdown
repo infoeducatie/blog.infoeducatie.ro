@@ -2,7 +2,7 @@
 layout: post
 title:  "InfoEducație - Ediția Online 2015"
 date:   2015-03-13 23:16:02
-author: Cîtea Alexandru
+author: "Cîtea Alexandru"
 categories: stiri
 ---
 
