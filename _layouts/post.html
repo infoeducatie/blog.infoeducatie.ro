@@ -1,5 +1,7 @@
 ---
 layout: default
+layout: default
+comments: true
 ---
 <div class="post">
 
@@ -11,5 +13,19 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  {% if page.comments %}
+    <div id="discourse-comments"></div>
+    <script type="text/javascript">
+      var discourseUrl = "http://community.infoeducatie.ro/",
+          discourseEmbedUrl = window.location.href;
+
+      (function() {
+        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+          d.src = discourseUrl + 'javascripts/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+    </script>
+  {% endif %}
 
 </div>
