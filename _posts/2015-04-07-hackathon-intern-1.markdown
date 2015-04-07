@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hackathon 1"
+title:  "Hackathon Intern 1"
 date:   2015-04-07 23:16:02
 author: "Alex Palcuie"
 categories: stiri
