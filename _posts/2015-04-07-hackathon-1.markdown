@@ -14,7 +14,7 @@ Numele meu este Alex Palcuie și sunt student la Facultatea de Matematică și I
 
 Vlad a venit cu prietena lui, Doinița Spuză, care ne-a bătut la cap să mai dorm din când în când și ne-a gătit extraordinar.
 
-![poză cu spaghetele](/assets/images/hackathon-1/spaghete.jpg)
+![poză cu spaghetele](/assets/images/hackathon-1/spaghete.png)
 
 Bogdan lucrase dinainte la [API-ul](https://github.com/infoeducatie/infoeducatie-api) nou scris în Rails. Sarcini rezolvate:
 
@@ -42,4 +42,4 @@ Au fost reparate link-urile de la proiectele din [anii trecuți](http://infoeduc
 
 În final, am comandat o pizza delicioasă și am recuperat câteva ore de somn. Dacă vrei să discuți cu noi și să contribui, poți intra pe canalul nostru de [Slack](https://infoeducatie.slack.com/).
 
-![pizza](/assets/images/hackathon-1/pizza.jpg)
+![pizza](/assets/images/hackathon-1/pizza.png)
