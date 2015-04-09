@@ -10,7 +10,7 @@ Weekendul acesta o echipă de voluntari InfoEducație s-a strâns la București 
 
 <!-- more -->
 
-Numele meu este Alex Palcuie și sunt student la Facultatea de Matematică și Informatică și fost inginer la Hootsuite. Robert Dolca e student la Facultatea de Automatică și Calculatoare și inginer la Intel. Vlad Temian a venit tocmai de la Timișoara, unde e student la Facultatea de Matematică și Informatică și inginer la Presslabs. Din San Francisco, Bogdan Gâza, inginer la Twitter a supravegheat că nu stăm doar de povești și ne focusăm pe lucrurile care trebuie care contează cu adevărat. Toți am fost în juriul InfoEducație la secțiunea web.
+Numele meu este Alex Palcuie și sunt student la Facultatea de Matematică și Informatică și fost inginer la Hootsuite. Robert Dolca e student la Facultatea de Automatică și Calculatoare și inginer la Intel. Vlad Temian a venit tocmai de la Timișoara, unde e student la Facultatea de Matematică și Informatică și inginer la Presslabs. Din San Francisco, Bogdan Gâza, inginer la Twitter a supravegheat că nu stăm doar de povești și ne concentrăm pe lucrurile care trebuie care contează cu adevărat. Toți am fost în juriul InfoEducație la secțiunea web.
 
 Vlad a venit cu prietena lui, Doinița Spuză, care ne-a bătut la cap să mai dorm din când în când și ne-a gătit extraordinar.
 
