@@ -10,20 +10,20 @@ Pentru a veni în întâmpinarea celor care nu sunt familiarizați cu sistemul d
 
 <!-- more -->
 
-Primul pas este crearea unui cont pe [GitHub](https://github.com/), completând un username, adresa de email și o parolă. La următorul pas va trebui să selectați tipul de cont dorit. Implicit este selectat contul gratuit, care permite doar crearea de repository-uri publice. Apăsați ”Finish sign up”.
+Primul pas este crearea unui cont [**GitHub**](https://github.com/), completând un username, adresa de email și o parolă. La următorul pas va trebui să selectați tipul de cont dorit. Implicit este selectat contul gratuit, care permite doar crearea de repository-uri publice. Apăsați „**Finish sign up**”.
 
-Acesta este un moment bun pentru a valida adresa de email aleasă: tot ce trebuie să faceți este să dați click pe link-ul din interiorul email-ului primit de la GitHub.
+Acesta este un moment bun pentru a valida adresa de email aleasă: tot ce trebuie să faceți este să accesați link-ul din interiorul email-ului primit de la GitHub.
 
-Pagina de start a GitHub va conține acum rubrica GitHub Bootcamp, o colecție de resurse suplimentare despre utilizarea GitHub. Noi ne vom axa pe crearea unui repository. Pentru aceasta dați click pe *+ New Repository*
+Pagina de start a GitHub va conține acum rubrica ***GitHub Bootcamp***, o colecție de resurse suplimentare despre utilizarea GitHub. Noi ne vom axa pe crearea unui repository. Pentru aceasta dați click pe **+ New Repository**
 
 {: .center}
 ![GitHub homepage](/assets/images/github-101/01-dashboard.png)
 
 
 
-Următorul pas este alegerea unui nume pentru repository. În câmpul „Description” puteți adăuga o scurtă descriere a proiectului. Nu uitați să bifați „Initialize this repository with a README”. Optional puteți alege, în partea de jos a paginii, adăugarea unui fișier .gitignore și/sau a unei licențe.
+Următorul pas este alegerea unui nume pentru repository. În câmpul „*Description*” puteți adăuga o scurtă descriere a proiectului. Nu uitați să bifați „**Initialize this repository with a README**”. Opțional puteți alege, în partea de jos a paginii, adăugarea unui fișier .gitignore și/sau a unei licențe.
 
-Fișierul .gitignore este folosit pentru ca git să ignore fișierele pe care nu le doriți în repository, de exemplu: fișiere generate la compilare, fișiere private, etc. Mai multe detalii puteți găsi aici: [help.github.com](https://help.github.com/articles/ignoring-files/).
+Fișierul .gitignore este folosit de git pentru a ignora fișierele pe care nu le doriți în repository, de exemplu: fișiere generate la compilare, fișiere private, etc. Mai multe detalii puteți găsi aici: [help.github.com](https://help.github.com/articles/ignoring-files/).
 
 Licența folosită determină condițiile în care o altă persoană poate folosi proiectul vostru. Un ghid alegerea unei licențe poate fi găsit aici: [choosealicense.com](http://choosealicense.com/).
 
@@ -32,7 +32,7 @@ Licența folosită determină condițiile în care o altă persoană poate folos
 
 
 
-După apăsarea butonului „Create Repository” veți ajunge pe pagina repository-ului nou creat.
+După apăsarea butonului „**Create Repository**” veți ajunge pe pagina repository-ului nou creat.
 
 {: .center}
 ![Repository-ul a fost creat](/assets/images/github-101/03-repo-created.png)
@@ -53,37 +53,37 @@ După apăsarea butonului „Create Repository” veți ajunge pe pagina reposit
 
 
 
-La Ultimul pas puteți da click pe Skip, deoarece încă nu aveți niciun repository local.
+La ultimul pas puteți apăsa pe „**Skip**”, deoarece încă nu aveți niciun repository local.
 
 {: .center}
 ![Importarea repo](/assets/images/github-101/06-github-setup-3.png)
 
 
 
-Acum vom clona (crea o copie locală) repository-ul creat anterior. Din aplicație vom da click pe „+”, vom selecta tab-ul „Clone”, contul și repository-ul pe care dorim să-l clonăm, iar în final click pe „Clone <repo-name>”. Pe ecran va apărea o fereastră pentru selectarea directorului unde se va face clonarea.
+Acum vom clona (crea o copie locală) repository-ul creat anterior. Din aplicație vom da click pe „**+**”, vom selecta tab-ul „**Clone**”, contul și repository-ul pe care dorim să-l clonăm, iar în final vom apăsa „**Clone <repo-name>**”. Pe ecran va apărea o fereastră pentru selectarea directorului unde se va face clonarea.
 
 {: .center}
 ![Clonarea unui repository](/assets/images/github-101/07-github-clone.png)
 
 
 
-Acum puteți adăuga fișierele sursă în folderul în care ați clonat repository-ul. În acest exemplu este vorba de fișierul hello.c.
+Acum puteți adăuga fișierele sursă în folderul în care ați clonat repository-ul. În acest exemplu este vorba de fișierul *hello.c*.
 
 {: .center}
 ![Adăugarea fișierelor sursă](/assets/images/github-101/08-add-source-files.png)
 
 
 
-Reveniniți în aplicația GitHub for Windows și selectați repository-ul. Veți observa pe coloana centrală că a detectat modificarea unor fișiere („Uncommitted changes”). Dați click pe Show pentru a vedea lista lor.
+Reveniniți în aplicația GitHub for Windows și selectați repository-ul. Veți observa pe coloana centrală că a detectat modificarea unor fișiere („*Uncommitted changes*”). Dați click pe Show pentru a vedea lista lor.
 
-În coloana din dreapta vor apărea toate fișierele noi apărute în directorul repository-ului (ex: hello.c), precum și fișierele existente care au fost modificate de la ultimul commit (ex: README.md). Pentru a adăuga toate fișierele în repository bifați „Files to commit”. Dacă doriți un control mai fin asupra fișierelor puteți expanda fiecare fișier și selecta doar anumite linii. La final scrieți un mesaj de commit în câmpul Summary de pe coloana centrală și dați click pe commit.
+În coloana din dreapta vor apărea toate fișierele noi apărute în directorul repository-ului (ex: *hello.c*), precum și fișierele existente care au fost modificate de la ultimul commit (ex: *README.md*). Pentru a adăuga toate fișierele în repository bifați „*Files to commit*”. Dacă doriți un control mai fin asupra fișierelor puteți expanda fiecare fișier și selecta doar anumite linii. La final scrieți un mesaj de commit în câmpul Summary de pe coloana centrală și dați click pe commit.
 
 {: .center}
 ![Crearea unui commit](/assets/images/github-101/09-commit.png)
 
 
 
-Ultimul pas este sincronizarea repository-ului local cu GitHub. Tot ce trebuie făcut este să dați click pe Sync.
+Ultimul pas este sincronizarea repository-ului local cu GitHub. Tot ce trebuie făcut este să dați click pe „**Sync**”.
 
 {: .center}
 ![Sincronizarea cu GitHub](/assets/images/github-101/10-push.png)
