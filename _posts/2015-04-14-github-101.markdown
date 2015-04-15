@@ -13,19 +13,19 @@ Pentru a veni în întâmpinarea celor care nu sunt familiarizați cu sistemul d
 ## 0. Concepte de bază
 Înainte de a începe tutorialul este util să răspundem la câteva întrebări și să definim câteva noțiuni.
 
-###### Ce este un sistem de versionare?
+#### Ce este un sistem de versionare?
 Un sistem de versionare este un mod de management al fișierelor care permite păstrarea istoricului tuturor modificărilor aduse fișierelor urmărite. O introducere a tipurilor de sisteme de versionare poate fi citită aici: [git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 În continuare vom discuta despre sisteme de versionare din perspectiva folosirii lor în cadrul proiectelor software.
 
-###### Ce este github.com?
+#### Ce este github.com?
 GitHub este un serviciu de hosting al proiectelor git (un proiect git este numit `repository`). Acesta permite păstrarea unei copii a proiectului online și vizualizarea tuturor fișierelor și a modificărilor aduse acestora.
 
-###### Care sunt avantajele folosirii unui sistem de versionare?
+#### Care sunt avantajele folosirii unui sistem de versionare?
 * este salvat istoricul tuturor modificărilor, astfel că se poate reveni oricând la o versiune mai veche dacă se descoperă introducerea unor defecte în ultima versiune
 * prin folosirea unui serviciu de hosting, codul sursă are mereu o copie de siguranță online
 * cea mai recentă versiune a codului sursă este mereu disponibilă tuturor dezvoltatorilor, făcând astfel colaborarea și sincronizarea mult mai ușoară decât în cazul trimiterii de fișiere conținând cod sursă dezvoltatorilor interesați de proiect.
 
-###### Dicționar de termeni
+#### Dicționar de termeni
 * `git` - sistem de versionare
 * `repository` - un „proiect” git ce conține toate fișierele și istoricul modificărilor
 * `commit` - un set de modicări/adăugări/ștergeri a unui sau a mai multor fișiere din cadrul repository-ului
@@ -87,7 +87,7 @@ La ultimul pas puteți apăsa pe „**Skip**”, deoarece încă nu aveți niciu
 
 
 ## 4. Crearea primul commit
-Acum vom clona (crea o copie locală) repository-ul creat anterior. Din aplicație vom da click pe „**+**”, vom selecta tab-ul „**Clone**”, contul și repository-ul pe care dorim să-l clonăm, iar în final vom apăsa „**Clone <repo-name>**”. Pe ecran va apărea o fereastră pentru selectarea directorului unde se va face clonarea.
+Acum vom clona (crea o copie locală) repository-ul creat anterior. Din aplicație vom da click pe „**+**”, vom selecta tab-ul „**Clone**”, contul și repository-ul pe care dorim să-l clonăm, iar în final vom apăsa „**Clone \<repo-name\>**”. Pe ecran va apărea o fereastră pentru selectarea directorului unde se va face clonarea.
 
 {: .center}
 ![Clonarea unui repository](/assets/images/github-101/07-github-clone.png)
