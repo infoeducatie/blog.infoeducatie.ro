@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog tehnic pentru comunitatea InfoEducație"
-date:   2015-07-17 20:00:02
+date:   2015-07-07 21:19:00
 author: "Coman Alexandru"
 categories: stiri
 ---
