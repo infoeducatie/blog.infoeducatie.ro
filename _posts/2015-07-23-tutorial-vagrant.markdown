@@ -23,10 +23,6 @@ categories: tutorial
 
 În ultimii ani, virtualizarea și standardizarea mașinilor virtuale a devenit un subiect din ce în ce mai dezbătut, și populat de diferite sisteme ce își doresc a face acest subiect o realitate cât mai accesibilă. Unul dintre aceste sisteme, realizat modular, este **Vagrant**. În următoarele rânduri vom vorbi despre ce este mai exact Vagrant, cum funcționează și cum se instaleaza și configurează acest sistem.
 
---- 
-
-Tutorialul în forma originală poate fi găsit la [această adresă](http://sabinmarcu.github.io/vagrant-tutorial).
-
 ### Ce este Vagrant?
 
 Dacă veți căuta pe Google **Vagrant**, veți obține aproximativ următoarea definiție:
@@ -50,6 +46,8 @@ Din acest moment, mașina virtuală copiată va fi **aprovizionată**. Aprovizio
 După ce crearea mașinii virtuale este terminată, ea poate fi pornită. În acest moment se rulează aprovizionarea. Când aprovizionarea este terminată, mașina poate fi accesată fie prin SSH, fie prin alte metode (Ex: pentru VirtualBox, VMWare, etc. mașina poate fi accesată din iterfață serviciului).
 
 Informațiile necesare creeri și aprovizionării unei astfel de mașini sunt stocate într-un fișier numit *Vagrantfile*. Acest fișier poate fi pur și simplu transferat pe o altă mașină (fizică sau virtuală) de unde tot procesul poate fi reluat fără nici o modificare, fără a necesita decât prezența unei instalații Vagrant și a provider-ului (VirtualBox, VMWare, etc).
+
+> Tutorialul în forma originală poate fi găsit la [această adresă](http://sabinmarcu.github.io/vagrant-tutorial).
 
 ## Instalare
 
