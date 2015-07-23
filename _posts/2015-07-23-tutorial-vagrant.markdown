@@ -87,7 +87,7 @@ Primul pas spre a instala Vagrant pe o mașină OS X este a descărca imaginea d
 [<img alt='Imagine pagină de descărcare' src='{{ site.baseurl }}assets/images/vagrant/macos/download.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/download.png)
 
 După ce imaginea este descărcată, dacă nu se montează automat, faceți `dublu-click` pe fișier pentru a îl monta. După ce imaginea este montată, se va deschide o fereastră _Finder_ cu conținutul, ce va arătă asemănător cu imaginea de mai jos:
-[<img alt='Imagine conținut imagine' src='{{ site.baseurl }}assets/images/vagrant/macos/image.png' class="noshadow" />({{ site.baseurl }}assets/images/vagrant/macos/image.png)
+[<img alt='Imagine conținut imagine' src='{{ site.baseurl }}assets/images/vagrant/macos/image.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/image.png)
 
 În acest moment, va trebui executat fișierul `Vagrant.pkg` pentru a iniția instalarea. Instalarea urmează un fir standard de execuție, necesitând apăsarea butonului de continuare de două ori, oferind opțiunea de a schimba locația instalării. La sfârșitul acestui proces, utilizatorul va fi solicitat să introducă parola sa pentru a putea efectua instalarea. Procesul este ilustrat în imaginile de mai jos:
 
