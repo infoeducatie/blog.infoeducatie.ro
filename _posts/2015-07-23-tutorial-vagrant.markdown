@@ -5,23 +5,11 @@ date:   2015-07-23 20:--:00
 author: "Sabin Marcu & Elena Pistol"
 categories: tutorial
 ---
-<style>
-.page-content .post .post-content img{
-    display: block;
-    width: 100%;
-	margin: 20px auto;
-}
-.page-content .post .post-content img::not(.noshadow){
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-    -ms-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-    -o-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-}
-</style>
 
 
 În ultimii ani, virtualizarea și standardizarea mașinilor virtuale a devenit un subiect din ce în ce mai dezbătut, și populat de diferite sisteme ce își doresc a face acest subiect o realitate cât mai accesibilă. Unul dintre aceste sisteme, realizat modular, este **Vagrant**. În următoarele rânduri vom vorbi despre ce este mai exact Vagrant, cum funcționează și cum se instaleaza și configurează acest sistem.
+
+> Tutorialul în forma originală poate fi găsit la [această adresă](http://sabinmarcu.github.io/vagrant-tutorial).
 
 ### Ce este Vagrant?
 
@@ -46,8 +34,6 @@ Din acest moment, mașina virtuală copiată va fi **aprovizionată**. Aprovizio
 După ce crearea mașinii virtuale este terminată, ea poate fi pornită. În acest moment se rulează aprovizionarea. Când aprovizionarea este terminată, mașina poate fi accesată fie prin SSH, fie prin alte metode (Ex: pentru VirtualBox, VMWare, etc. mașina poate fi accesată din iterfață serviciului).
 
 Informațiile necesare creeri și aprovizionării unei astfel de mașini sunt stocate într-un fișier numit *Vagrantfile*. Acest fișier poate fi pur și simplu transferat pe o altă mașină (fizică sau virtuală) de unde tot procesul poate fi reluat fără nici o modificare, fără a necesita decât prezența unei instalații Vagrant și a provider-ului (VirtualBox, VMWare, etc).
-
-> Tutorialul în forma originală poate fi găsit la [această adresă](http://sabinmarcu.github.io/vagrant-tutorial).
 
 ## Instalare
 
@@ -336,3 +322,19 @@ Pentru a utiliza *port forwarding*, este necesar a adăuga o linie suplimentară
 
 
 Un exemplu concret este disponibil în repositorul git al acestui tutorial la [această adresă](https://github.com/sabinmarcu/vagrant-tutorial/tree/master), în folder-ul **portforward** ([link direct](https://github.com/sabinmarcu/vagrant-tutorial/tree/master/portforward)). Acest demo conține două script-uri: `configure` care se a asigura că **python** și **screen** există pe mașina virtuală și este rulat doar *o singură dată*, iar `run` va rula un server simplu http cu python în directorul curent (al mașinii gazdă) în mașina virtuală într-o instanță screen pentru a menține execuția indiferent de activitatea utilizatorului, cât timp mașina rulează. Utilizatorul poate verifica starea server-ului și conectivitatea prin accesarea [adresei din mapping](http://localhost:9000). Folder-ul va conține un fișier HTML ce va afișa la ce port rulează aplicația pe server-ul din mașina virtuală, și la ce port este accesat de utilizator.
+
+
+<style>
+.page-content .post .post-content img{
+    display: block;
+    width: 100%;
+	margin: 20px auto;
+}
+.page-content .post .post-content img::not(.noshadow){
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+</style>
