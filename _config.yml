@@ -10,4 +10,4 @@ github_username:  infoeducatie
 
 # Build settings
 markdown: kramdown
-# used for testing a fork – baseurl: /blog.infoeducatie.ro/
+baseurl: /blog.infoeducatie.ro/
