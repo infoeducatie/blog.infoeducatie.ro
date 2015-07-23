@@ -10,3 +10,4 @@ github_username:  infoeducatie
 
 # Build settings
 markdown: kramdown
+baseurl: /blog.infoeducatie.ro/
