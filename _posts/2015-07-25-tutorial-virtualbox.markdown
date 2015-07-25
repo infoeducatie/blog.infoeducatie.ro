@@ -55,7 +55,7 @@ Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtual
 
 [![Instare virtual box pas 2](/assets/images/virtualbox/windows/install-step2.png)](/assets/images/virtualbox/windows/install-step2.png)
 
-În acest moment, utilizatorul poate alege dacă dorește scurtături să fie create pe desktop, etc sau dacă dorește ca anumite tipuri de fișiere să fie asociate cu *VirtualBox*. În continuare, este necesar doar a continua instalarea prin apăsarea butoanelor *Yes* și *Install*.
+În acest moment, utilizatorul poate alege dacă dorește să se creeze scurtături desktop, etc sau dacă dorește ca anumite tipuri de fișiere să fie asociate cu *VirtualBox*.
 
 [![Instare virtual box pas 3](/assets/images/virtualbox/windows/install-step3.png)](/assets/images/virtualbox/windows/install-step3.png)
 
