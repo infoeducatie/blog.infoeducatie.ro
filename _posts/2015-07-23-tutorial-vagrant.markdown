@@ -13,7 +13,7 @@ categories: tutorial
 
 Dacă veți căuta pe Google **Vagrant**, veți obține aproximativ următoarea definiție:
 
-![Imagine definiție vagrant]({{ site.baseurl }}assets/images/vagrant/def.png)
+![Imagine definiție vagrant](/assets/images/vagrant/def.png)
 
 Vagrant este definit ca `o persoană fără un cămin stabilit sau job stabil ce se mută din loc în loc`. Într-un fel, această descriere se potrivește destul de bine software-ului *Vagrant*.
 
@@ -54,16 +54,16 @@ Link catre un tutorial VirtualBox
 Pentru scopul acestui tutorial se va folosi o instalare de **Ubuntu** deoarece este cea mai populară / folosită distribuție de *linux* la momentul actual. Procedeul de instalare pentru alte distribuții este similar.
 
 Primul pas spre a instala Vagrant pe o mașină Ubuntu / Linux este a descărca pachetul de instalare _.deb_ (ultima versiune disponibilă la data creări articolului este **vagrant_1.7.3**). Pachetul va trebui ales și în funcție de arhitectura sistemului de operare, fie *32 de biți*, fie *64 de biți*. Dacă nu sunteți siguri, folosiți varianta pe *32 de biți*. Aceasta imagine este disponibilă la [adresa de descărcare a site-ului](http://www.vagrantup.com/downloads.html) Vagrant, ilustrată in imaginea de mai jos:
-[![Imagine pagină de descărcare]({{ site.baseurl }}assets/images/vagrant/ubuntu/website.png)]({{ site.baseurl }}assets/images/vagrant/ubuntu/website.png)
+[![Imagine pagină de descărcare](/assets/images/vagrant/ubuntu/website.png)](/assets/images/vagrant/ubuntu/website.png)
 
 După ce pachetul este descărcat, rulați fișierul fie din meniul / fereastra de download a browser-ului, fie din *File Explorer* (Nautilus în cazul Ubuntu). La deschiderea fișierului o fereastră asemănătoare cu cea de mai jos se va deschide, pentru a iniția procesul de instalare. Utilizatorul va trebui să urmărească un fir standard de execuție, prin a apăsa butonul de instalare. La un moment dat, utilizatorul va fi solicitat să introducă parola sa pentru a putea efectua instalarea. Procesul este ilustrat în imaginile de mai jos:
 
-[![Imagine fereastră de instalare]({{ site.baseurl }}assets/images/vagrant/ubuntu/installwindow.png)]({{ site.baseurl }}assets/images/vagrant/ubuntu/installwindow.png)
-[![Imagine fereastră de autentificare]({{ site.baseurl }}assets/images/vagrant/ubuntu/pass.png)]({{ site.baseurl }}assets/images/vagrant/ubuntu/pass.png)
+[![Imagine fereastră de instalare](/assets/images/vagrant/ubuntu/installwindow.png)](/assets/images/vagrant/ubuntu/installwindow.png)
+[![Imagine fereastră de autentificare](/assets/images/vagrant/ubuntu/pass.png)](/assets/images/vagrant/ubuntu/pass.png)
 
 La sfârșitul instalării, fereastra inițială va afișa faptul că pachetul este instalat, într-o manieră similară ca cea prezentată mai jos:
 
-[![Imagine fereastră de instalare finalizata]({{ site.baseurl }}assets/images/vagrant/ubuntu/finishedinstall.png)]({{ site.baseurl }}assets/images/vagrant/ubuntu/finishedinstall.png)
+[![Imagine fereastră de instalare finalizata](/assets/images/vagrant/ubuntu/finishedinstall.png)](/assets/images/vagrant/ubuntu/finishedinstall.png)
 
 într-un final, utilizatorul poate verifica dacă Vagrant a fost instalat pentru a deschide un emulator de terminal (Ubuntu: aplicația Terminal. Nota: Aplicația terminal poate fi pornit într-un instalare tipică de Ubuntu prin combinația de taste **`Control` + `Alt` + `T`**) și introducerea comenzii :
 
@@ -79,35 +79,35 @@ $ vagrant --version
 
 Exemplu:
 
-[![Imagine ajutor vagrant]({{ site.baseurl }}assets/images/vagrant/ubuntu/vagranthelp.png)]({{ site.baseurl }}assets/images/vagrant/ubuntu/vagranthelp.png)
+[![Imagine ajutor vagrant](/assets/images/vagrant/ubuntu/vagranthelp.png)](/assets/images/vagrant/ubuntu/vagranthelp.png)
 
 
 
 ### Mac OS X
 
 Primul pas spre a instala Vagrant pe o mașină OS X este a descărca imaginea de instalare _.dmg_ (ultima versiune disponibilă la data creări articolului este **vagrant_v1.7.3.dmg**). Aceasta imagine este disponibilă la [adresa de descărcare a site-ului](http://www.vagrantup.com/downloads.html) Vagrant, ilustrată in imaginea de mai jos:
-[<img alt='Imagine pagină de descărcare' src='{{ site.baseurl }}assets/images/vagrant/macos/download.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/download.png)
+[<img alt='Imagine pagină de descărcare' src='/assets/images/vagrant/macos/download.png' class="noshadow" />](/assets/images/vagrant/macos/download.png)
 
 După ce imaginea este descărcată, dacă nu se montează automat, faceți `dublu-click` pe fișier pentru a îl monta. După ce imaginea este montată, se va deschide o fereastră _Finder_ cu conținutul, ce va arătă asemănător cu imaginea de mai jos:
-[<img alt='Imagine conținut imagine' src='{{ site.baseurl }}assets/images/vagrant/macos/image.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/image.png)
+[<img alt='Imagine conținut imagine' src='/assets/images/vagrant/macos/image.png' class="noshadow" />](/assets/images/vagrant/macos/image.png)
 
 În acest moment, va trebui executat fișierul `Vagrant.pkg` pentru a iniția instalarea. Instalarea urmează un fir standard de execuție, necesitând apăsarea butonului de continuare de două ori, oferind opțiunea de a schimba locația instalării. La sfârșitul acestui proces, utilizatorul va fi solicitat să introducă parola sa pentru a putea efectua instalarea. Procesul este ilustrat în imaginile de mai jos:
 
-[<img alt='Imagine prim pas al instalării' src='{{ site.baseurl }}assets/images/vagrant/macos/firststep.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/firststep.png)
-[<img alt='Imagine alegere a locației instalării' src='{{ site.baseurl }}assets/images/vagrant/macos/installlocation.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/installlocation.png)
-[<img alt='Imagine solicitare a parolei' src='{{ site.baseurl }}assets/images/vagrant/macos/pass.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/pass.png)
+[<img alt='Imagine prim pas al instalării' src='/assets/images/vagrant/macos/firststep.png' class="noshadow" />](/assets/images/vagrant/macos/firststep.png)
+[<img alt='Imagine alegere a locației instalării' src='/assets/images/vagrant/macos/installlocation.png' class="noshadow" />](/assets/images/vagrant/macos/installlocation.png)
+[<img alt='Imagine solicitare a parolei' src='/assets/images/vagrant/macos/pass.png' class="noshadow" />](/assets/images/vagrant/macos/pass.png)
 
 Instalarea va continua până la sfârșit, prezentând următoarea fereastră:
 
-[<img alt='Imagine terminare instalare' src='{{ site.baseurl }}assets/images/vagrant/macos/installcomplete.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/installcomplete.png)
+[<img alt='Imagine terminare instalare' src='/assets/images/vagrant/macos/installcomplete.png' class="noshadow" />](/assets/images/vagrant/macos/installcomplete.png)
 
 În acest moment este recomandată demontarea imaginii, din moment ce instalarea este finalizată. Demontarea se realizează prin apăsarea butonului indicat în imaginea de mai jos.
 
-[<img alt='Imagine demontare imagine' src='{{ site.baseurl }}assets/images/vagrant/macos/unmount.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/unmount.png)
+[<img alt='Imagine demontare imagine' src='/assets/images/vagrant/macos/unmount.png' class="noshadow" />](/assets/images/vagrant/macos/unmount.png)
 
 Din acest moment, utilizarea programului command line `vagrant` va fi posibil folosind aplicația `Terminal.app` (sau `iTerm2.app` sau orice alt emulator terminal preferat). Exemplu de funcționalitate este prezentat mai jos:
 
-[<img alt='Imagine execuție vagrant help' src='{{ site.baseurl }}assets/images/vagrant/macos/vagranthelp.png' class="noshadow" />]({{ site.baseurl }}assets/images/vagrant/macos/vagranthelp.png)
+[<img alt='Imagine execuție vagrant help' src='/assets/images/vagrant/macos/vagranthelp.png' class="noshadow" />](/assets/images/vagrant/macos/vagranthelp.png)
 
 ### Windows
 
@@ -128,7 +128,7 @@ După aceasta, instalați Vagrant, versiunea de Windows, ce se găsește [aici](
 
 Deși atunci când ați rulat `vagrant` în cmd a apărut o listă de comenzi, pentru a seta un server propriu cu ajutorul Vagrant este nevoie doar de câteva dintre ele. Comanda `vagrant init` va crea în director un fișier Vagrantfile, ce conține detalii legate de configurare. Este un exercițiu bun să îl deschideți și să parcurgeți conținutul.
 
-[![Imagine vagrant init]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_init.png)]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_init.png)
+[![Imagine vagrant init](/assets/images/vagrant/windows/vagrant_init.png)](/assets/images/vagrant/windows/vagrant_init.png)
 
 **Cum să vă creați propriul server?**
 
@@ -144,7 +144,7 @@ Aceasta va crea fișierul Vagrantfile, descris mai sus. Vagrant pune la dispozi�
 
 La prima rulare a acestei comenzi se crează o mașină virtuală conform configurărilor din fișierul Vagrantfile creat la inițializare. Pentru a verifica la final că mașina rulează într-adevăr, deschideți VirtualBox și ar trebui să apară ceva asemănător ca în imagine:
 
-[![Imagine vagrant VirtualBox]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_vb.png)]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_vb.png)
+[![Imagine vagrant VirtualBox](/assets/images/vagrant/windows/vagrant_vb.png)](/assets/images/vagrant/windows/vagrant_vb.png)
 
 De asemenea, de fiecare dată când doriți doar să deschideți mașina, se execută comanda `vagrant up`.
 
