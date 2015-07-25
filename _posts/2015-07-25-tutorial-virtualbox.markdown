@@ -7,7 +7,7 @@ categories: tutorial
 ---
 
 
-Virtual Box este o aplicație care își propune să vină în ajutorul nostru atunci când avem nevoie rapid și ușor de o mașină care să îndeplinească anumite specificații, atât hardware, cât și software. Astfel, urmând câțiva pași simpli, putem crea mașini virtule cu orice sistem de operare, diferit de cel pe care-l avem pe mașina locală. În plus, după ce am creat mașini virtuale proprii, cu specificațiile dorite, putem să le facem copii, sau să le clonăm și folosi pe orice alt host.
+Virtual Box este o aplicație care își propune să vină în ajutorul nostru atunci când avem nevoie rapid și ușor de o mașină care să îndeplinească anumite specificații, atât hardware, cât și software. Astfel, urmând câțiva pași simpli, putem crea mașini virtule cu orice sistem de operare, diferit de cel pe care-l avem pe mașina locală. În plus, după ce am creat mașini virtuale proprii, cu specificațiile dorite, putem să le facem copii, sau să le clonăm și folosi pe orice alt computer.
 
 De asemenea, Virtual Box nu este dependent de sistemul de operare, astfel că poate fi instalat și folosit pe orice platformă.
 
@@ -19,7 +19,7 @@ De asemenea, Virtual Box nu este dependent de sistemul de operare, astfel că po
 
 ### Mac OS X
 
-Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtualbox.org/wiki/Downloads) și descărcați versiunea pentru Windows, _VirtualBox 5.0 for OS X hosts_. Imaginea descărcată, după ce va fi descărcată și deschisă, va arăta ca în imaginea de mai jos:
+Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtualbox.org/wiki/Downloads) și descărcați versiunea pentru Mac OS X, _VirtualBox 5.0 for OS X hosts_. Imaginea descărcată, după ce va fi descărcată și deschisă, va arăta ca în imaginea de mai jos:
 
 [<img alt="Descriere imagine" class="noshadow" src="/assets/images/virtualbox/macos/dmgcontent.png" />](/assets/images/virtualbox/macos/dmgcontent.png)
 
@@ -77,11 +77,11 @@ La deschiderea aplicației **VirtualBox**, utilizatorul va fi întâmpinat de ur
 
 [<img alt="Start Virtualbox" class="noshadow" src="/assets/images/virtualbox/quickstart/start.png" />](/assets/images/virtualbox/quickstart/start.png)
 
-De aici, pentru a crea o nouă mașină virtuală, utilizatorul va trebui să apese pe butonul **New**. De aici, procesul de creare va porni cu urmatoarea solicitare de informații:
+De aici, pentru a crea o nouă mașină virtuală, utilizatorul va trebui să apese pe butonul **New**. În continuare, procesul de creare va porni cu urmatoarea solicitare de informații:
 
 [<img alt="Numele și tipul Mașinii Virtuale" class="noshadow" src="/assets/images/virtualbox/quickstart/nameandtype.png" />](/assets/images/virtualbox/quickstart/nameandtype.png)
 
-Utilizatorul va trebui să ofere un nume mașinii virtuale, și să definească tipul sitemului de operare ce va fi folosit. După aceea, utilizatorul va trebui să specifice cantitatea de RAM alocată mașinii virtuale cât timp aceasta rulează.
+Utilizatorul va trebui să ofere un nume mașinii virtuale, să definească tipul sitemului de operare ce va fi folosit, urmând ca la sfărșit să specifice cantitatea de RAM alocată mașinii virtuale cât timp aceasta rulează.
 
 [<img alt="Cantitatea de RAM" class="noshadow" src="/assets/images/virtualbox/quickstart/ram.png" />](/assets/images/virtualbox/quickstart/ram.png)
 
@@ -114,15 +114,15 @@ Din acest moment, se procedează prin instalarea sistemului de operare dorit. Pe
 
 ## Configurare avansată
 
-Fiecare mașină virtuală creată în VirtualBox are o configurare proprie, pe care o putem accesa oricând dorim. În această secțiune vom parcurge fiecare tab din _Settings_ (se găsește imediat deasupra) și vom vedea la ce ajută fiecare setare. În primă fază, atunci când deschidem fereastra, vom vedea mai multe tab-uri:
+Fiecare mașină virtuală creată în VirtualBox are o configurare proprie, pe care o putem accesa oricând dorim. În această secțiune vom parcurge fiecare tab din _Settings_ (se găsește imediat deasupra) și vom vedea la ce ajută fiecare opțiune. În primă fază, atunci când deschidem fereastra, vom vedea mai multe tab-uri:
 
 [![Configurare avansată, general](/assets/images/virtualbox/configurare_avansata/general.png)](/assets/images/virtualbox/configurare_avansata/general.png)
 
 ### General
 
-În acest tab sunt incluse configurările fundamentale. Acesta este împărțit în 3 sub-tab-uri, din care în _Basic_ putem seta numele mașinii virtuale. Sistemul de operare și versiunea acestuia, chiar dacă pot fi schimbate aparent, setările vor rămâne aceleași ca atunci când s-a cret mașina.
+În acest tab sunt incluse configurările fundamentale. Acesta este împărțit în 3 sub-tab-uri, din care în _Basic_ putem configura numele mașinii virtuale. Sistemul de operare și versiunea acestuia, chiar dacă pot fi schimbate aparent, setările vor rămâne aceleași ca atunci când s-a cret mașina.
 
-In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată mașina noastră virtuală, în secțiunea _Snapshot Folder_. În _Shared Clipboard_,  putem seta modul în care putem accesa clipboad-ul atât local, cât și în mașina virtuala. Astfel, pentru _Disabled_, clipboard-ul de pe host-ul local nu va putea fi folosit, iar pentru _Bidirectional_ va putea fi folosit. Setările _Host to Guest_ și _Guest to Host_ perminte partajarea clipboard-ului doar unidirecțional. Același lucru este și pentru _Drag'n'Drop_, doar că aici se face referire la partajarea fișierelor între host-ul local și mașina virtuală. Ultimele două checkbox-uri sunt setări cu privire la modul de vizualizare al mini toolbar-ului, si dacă dorim ca fișierele media să fie salvate sau nu.
+In tabul _Advanced_, putem adăuga calea către Snapshot-ul în care este creată mașina noastră virtuală, în secțiunea _Snapshot Folder_. În _Shared Clipboard_,  putem seta modul în care putem accesa clipboad-ul atât local, cât și în mașina virtuală. Astfel, pentru _Disabled_, clipboard-ul de pe host-ul local nu va putea fi folosit, iar pentru _Bidirectional_ va putea fi folosit. Setările _Host to Guest_ și _Guest to Host_ permite partajarea clipboard-ului doar unidirecțional. Același lucru este și pentru _Drag'n'Drop_, doar că aici se face referire la partajarea fișierelor între host-ul local și mașina virtuală. Ultimele două checkbox-uri sunt setări cu privire la modul de vizualizare al mini toolbar-ului, si dacă dorim ca fișierele media să fie salvate sau nu.
 
 În tab-ul _Description_ pot fi adăugate orice informații sau detalii legate de mașina virtuală.
 
@@ -138,7 +138,7 @@ In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată
 
 [![Configurare avansată, display](/assets/images/virtualbox/configurare_avansata/display.png)](/assets/images/virtualbox/configurare_avansata/display.png)
 
-În _Display_ putem seta memoria video pe care vrem s-o alocăm mașinii virtuale. Ca și în cazul setărilor de sistem, aici există o limită pe care o putem seta (zona marcată cu roșu nu este ok) depinzând de configurația de care dispunem pe mașina reală. De asemenea, putem alege numărul de monitoare pe care mașina virtuală le poate accesa atunci când dispunem de mai multe monitoare.
+În _Display_ putem seta memoria video pe care vrem să o alocăm mașinii virtuale. Ca și în cazul setărilor de sistem, aici există o limită pe care o putem configura (zona marcată cu roșu nu este ok) depinzând de configurația de care dispunem pe mașina reală. De asemenea, putem alege numărul de monitoare pe care mașina virtuală le poate accesa atunci când dispunem de mai multe monitoare.
 
 ### Storage
 
@@ -192,7 +192,7 @@ Primul pas este să deschideți Oracle VM VirtualBox Manager, iar apoi accesați
 
 [![Import pas 1](/assets/images/virtualbox/export/export-step1.png)](/assets/images/virtualbox/export/export-step1.png)
 
-După ce selectăm _Export Mode_, vom vedea o fereastră ce conține detaliile mașinii virtuale. Aici trebuie să alegem locația în care dorim să ne salvăm mașina după ce va fi exportată. Aceasta va fi salvată în format .ovf sau .ova (Open Virtualization Format). Având toate acestea, putem apăsa _Export_ și asteptăm câteva minute până se copiază fișierul.
+După ce selectăm _Export Mode_, vom vedea o fereastră ce conține detaliile mașinii virtuale. Aici trebuie să alegem locația în care dorim să ne salvăm mașina după ce va fi exportată. Aceasta va fi salvată în format .ovf sau .ova (Open Virtualization Format). Având toate acestea, putem apăsa _Export_ și așteptăm câteva minute până se copiază fișierul.
 
 [![Import pas 2](/assets/images/virtualbox/export/export-export_mode.png)](/assets/images/virtualbox/export/export-export_mode.png)
 
