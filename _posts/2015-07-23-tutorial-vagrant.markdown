@@ -111,44 +111,15 @@ Din acest moment, utilizarea programului command line `vagrant` va fi posibil fo
 
 ### Windows
 
-**Pas 1**
+Pentru început, instalați VirtualBox, versiunea pentru Windows! Se poate descărca de  [aici](https://www.virtualbox.org/wiki/Downloads)
 
-- Instalați VirtualBox, versiunea pentru Windows! Se poate descărca de aici: [adresa de descărcare](https://www.virtualbox.org/wiki/Downloads)
+După aceasta, instalați Vagrant, versiunea de Windows, ce se găsește [aici](http://www.vagrantup.com/downloads.html). Instalarea este simplă, urmând tiparul obisnuit de _Next_, _Next_, ... _Finish_. După instalare, windows-ul va cere un restart pentru a ajuta Vagrant-ul să-și creeze configurările, iar după restart, puteți verifica în cmd dacă s-a instalat, folosind comanda ```vagrant```. Dacă totul a decurs bine, va trebui să se afișeze ceva asemănător cu ce este în imaginea următoare:
 
+[![Imagine vagrant cmd](assets/images/vagrant/windows/vagrant_cmd.png)](assets/images/vagrant/windows/vagrant_cmd.png)
 
+În cele din urmă, a mai rămas un singur pas, și anume faptul că Vagrant are nevoie de un client SSH, iar Windows 7/8 nu îl contine by default, așa că vom folosi Putty. Pentru a-l avea, trebuie doar să-l descărcați de [aici](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) și alegeți ultima versiune pentru Windows (click pe _putty.exe_). Dacă deschideți ceea ce ați descărcat, ar trebui să vă apară o fereastră ce arată cam așa:
 
-**Pas 2**
-
-- Vagrant are nevoie de un client SSH, iar Windows 7/8 nu are un asemenea client predefinit, așa că vom folosi Git.
-- Instalați Git pentru Windows: [adresa de descărcare](http://msysgit.github.io/)
-- Deschideți, în ordine, _Control Panel_ > _System_
-
-[![Imagine control panel]({{ site.baseurl }}assets/images/vagrant/windows/control_panel.png)]({{ site.baseurl }}assets/images/vagrant/windows/control_panel.png)
-
-- _Advanced system settings_
-
-[![Imagine system]({{ site.baseurl }}assets/images/vagrant/windows/system.png)]({{ site.baseurl }}assets/images/vagrant/windows/system.png)
-
-- _Environment Variables..._
-
-[![Imagine system properties]({{ site.baseurl }}assets/images/vagrant/windows/system_properties.png)]({{ site.baseurl }}assets/images/vagrant/windows/system_properties.png)
-
-- În cele ce urmează, setați PATH-ul urmând pașii din imagini. Selectați _Path_ din _System variables_, apoi click _Edit..._:
-
-[![Imagine path]({{ site.baseurl }}assets/images/vagrant/windows/path.png)]({{ site.baseurl }}assets/images/vagrant/windows/path.png)
-
-- În _Variable value_, adaugați la final calea către folderul /bin unde ați instalat git. De obicei, aceasta este C:\Program Files (x86)\Git\bin
-
-[![Imagine edit path]({{ site.baseurl }}assets/images/vagrant/windows/edit_path.png)]({{ site.baseurl }}assets/images/vagrant/windows/edit_path.png)
-
-**Pas 3**
-
-- Instalați Vagrant, versiunea de Windows: [adresa de descărcare a site-ului](http://www.vagrantup.com/downloads.html)
-- După instalare, sistemul de operare va cere un restart pentru a-și crea configurările
-- După restart, puteți verifica în cmd dacă s-a instalat, folosind comanda `vagrant`
-
-
-[![Imagine vagrant cmd]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_cmd.png)]({{ site.baseurl }}assets/images/vagrant/windows/vagrant_cmd.png)
+[![Imagine putty](assets/images/vagrant/windows/putty.png)](assets/images/vagrant/windows/putty.png)
 
 
 ## Quickstart (101)
