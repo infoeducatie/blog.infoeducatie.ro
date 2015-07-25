@@ -17,9 +17,9 @@ Dacă veți căuta pe Google **Vagrant**, veți obține aproximativ următoarea 
 
 Vagrant este definit ca `o persoană fără un cămin stabilit sau job stabil ce se mută din loc în loc`. Într-un fel, această descriere se potrivește destul de bine software-ului *Vagrant*.
 
-Software-ul Vagrant este un sistem de configurare, distribuție și virtualizare a mediilor de lucru, dezvoltare și publicare. El permite, prin o mulțime de aplicații third-party, configurarea, aprovizionarea și distribuirea ușoară a mașinilor virtuale, cu scopul de a standardiza și ușura pregătirea unui mediu pentru dezvoltarea sau publicarea unei aplicații, sau a obține accesul la unelte necesare lucrului disponibile doar pe anumite sisteme de operare.
+Software-ul Vagrant este un sistem de configurare, distribuție și virtualizare a mediilor de lucru, dezvoltare și publicare. El permite, prin o mulțime de aplicații externe, configurarea, aprovizionarea și distribuirea ușoară a mașinilor virtuale, cu scopul de a standardiza și ușura pregătirea unui mediu pentru dezvoltarea sau publicarea unei aplicații, sau a obține accesul la unelte necesare lucrului disponibile doar pe anumite sisteme de operare.
 
-Un exemplu concret ar fi izolarea mediilor de dezvoltare, și automatizare compilări și creării aplicațiilor pe medii diferite (Ex: Windows pentru aplicații Windows Phone, Mac OS X pentru aplicații iOS, etc). Un alt exemplu ar fi experimentarea fără a polua mașina locală, sau izolarea experimentelor între ele însele.
+Un exemplu concret ar fi izolarea mediilor de dezvoltare, și automatizare compilări și creării aplicațiilor pe medii diferite (Ex: Windows pentru aplicații Windows Phone, Mac OS X pentru aplicații iOS, etc). Un alt exemplu ar fi experimentarea fără a polua mașina locală, sau izolarea experimentelor între ele.
 
 Acest proces este descris într-un singur fișier ce poate fi copiat din loc în loc, creând mediul dorit pe orice mașină gazdă (fie fizică, fie virtuală). Mediul creat poate fi atunci modificat în orice mod, iar când este creat din nou, va reveni la starea inițială definită în fișier.
 
@@ -29,7 +29,7 @@ Vagrant nu este o persoană, dar poate călători din loc în loc, fără un că
 
 Vagrant este un sistem de gestionare și configurare a mașinilor virtuale create de către diferite sisteme de virtualizare (VirtualBox, VMWare, Docker, etc).
 
-Vagrant utilizează o mulțime de **mașini virtuale pre-definite** pentru diferite sisteme de operare (Ex: Windows, Ubuntu, Mac OS X, Red Hat, etc.) și diferite versiuni ale acestor sisteme de operare. Vagrant va descărca aceste mașini virtuale pre-definite dorite, și va crea copii ale lor când este nevoie. Aceste mașini de obicei sunt create minimalist, cu un numar minim de utilitare și configurații realizate, pentru a se potrivi unei game cât mai largi de cerințe.
+Vagrant utilizează o mulțime de **mașini virtuale pre-definite** pentru diferite sisteme de operare (Ex: Windows, Ubuntu, Mac OS X, Red Hat, etc.) și diferite versiuni ale acestor sisteme. Vagrant va descărca aceste mașini virtuale pre-definite dorite, și va crea copii ale lor când este nevoie. Aceste mașini de obicei sunt create minimalist, cu un numar minim de utilitare și configurații realizate, pentru a se potrivi unei game cât mai largi de cerințe.
 
 Din acest moment, mașina virtuală copiată va fi **aprovizionată**. Aprovizionarea (sau *Provisioning-ul*) mașinii se realizează prin mai multe moduri, descrise mai jos, scopul fiind pregătirea mașinii pentru lucru, fie prin instalarea soft-urilor necesare, pornirea unor servicii, fie prin legarea elementelor din mașina virtuală cu cele din mașina gazdă (cea care reulează mașina virtuală) precum rețea sau fișiere și foldere.
 
