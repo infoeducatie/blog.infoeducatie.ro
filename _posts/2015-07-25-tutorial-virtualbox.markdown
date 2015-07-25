@@ -51,7 +51,11 @@ Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtual
 
 [![Instare virtual box pas 1](/assets/images/virtualbox/windows/install-step1.png)](/assets/images/virtualbox/windows/install-step1.png)
 
+În următorul pas utilizatorul poate alege ce componente ale aplicației să fie instalate și locația unde aceasta va fi instalată. De cele mai multe ori, opțiunile predefinite sunt suficiente.
+
 [![Instare virtual box pas 2](/assets/images/virtualbox/windows/install-step2.png)](/assets/images/virtualbox/windows/install-step2.png)
+
+În acest moment, utilizatorul poate alege dacă dorește scurtături să fie create pe desktop, etc sau dacă dorește ca anumite tipuri de fișiere să fie asociate cu *VirtualBox*. În continuare, este necesar doar a continua instalarea prin apăsarea butoanelor *Yes* și *Install*.
 
 [![Instare virtual box pas 3](/assets/images/virtualbox/windows/install-step3.png)](/assets/images/virtualbox/windows/install-step3.png)
 
@@ -61,9 +65,11 @@ Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtual
 
 [![Instare virtual box pas 6](/assets/images/virtualbox/windows/install-step6.png)](/assets/images/virtualbox/windows/install-step6.png)
 
-La următoarea fereastră, apăsați _Install_
+Este necesar instalarea unor drivere suplimentare pentru funcționarea și integrarea completă a aplicației cu sistemul de operare. La mesaje asemănătoare cu cel de mai jos, apăsați butonul *Install* pentru a permite instalarea acestora.
 
 [![Instare virtual box pas 7](/assets/images/virtualbox/windows/install-step7.png)](/assets/images/virtualbox/windows/install-step7.png)
+
+În acest moment, instalarea este terminată, iar utilizatorul poate începe să folosească *VirtualBox*.
 
 [![Instare virtual box pas 8](/assets/images/virtualbox/windows/install-step8.png)](/assets/images/virtualbox/windows/install-step8.png)
 
