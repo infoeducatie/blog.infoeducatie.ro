@@ -317,7 +317,7 @@ Un exemplu concret este disponibil în repositorul git al acestui tutorial la [a
     width: 100%;
 	margin: 20px auto;
 }
-.page-content .post .post-content img::not(.noshadow){
+.page-content .post .post-content img:not(.noshadow){
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
