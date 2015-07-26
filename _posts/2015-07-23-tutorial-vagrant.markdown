@@ -115,11 +115,11 @@ Pentru început, instalați VirtualBox, versiunea pentru Windows! Se poate desc�
 
 După aceasta, instalați Vagrant, versiunea de Windows, ce se găsește [aici](http://www.vagrantup.com/downloads.html). Instalarea este simplă, urmând tiparul obisnuit de _Next_, _Next_, ... _Finish_. După instalare, windows-ul va cere un restart pentru a ajuta Vagrant-ul să-și creeze configurările, iar după restart, puteți verifica în cmd dacă s-a instalat, folosind comanda ```vagrant```. Dacă totul a decurs bine, va trebui să se afișeze ceva asemănător cu ce este în imaginea următoare:
 
-[![Imagine vagrant cmd](assets/images/vagrant/windows/vagrant_cmd.png)](assets/images/vagrant/windows/vagrant_cmd.png)
+[![Imagine vagrant cmd](/assets/images/vagrant/windows/vagrant_cmd.png)](/assets/images/vagrant/windows/vagrant_cmd.png)
 
 În cele din urmă, a mai rămas un singur pas, și anume faptul că Vagrant are nevoie de un client SSH, iar Windows 7/8 nu îl contine by default, așa că vom folosi Putty. Pentru a-l avea, trebuie doar să-l descărcați de [aici](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) și alegeți ultima versiune pentru Windows (click pe _putty.exe_). Dacă deschideți ceea ce ați descărcat, ar trebui să vă apară o fereastră ce arată cam așa:
 
-[![Imagine putty](assets/images/vagrant/windows/putty.png)](assets/images/vagrant/windows/putty.png)
+[![Imagine putty](/assets/images/vagrant/windows/putty.png)](/assets/images/vagrant/windows/putty.png)
 
 
 ## Quickstart (101)
